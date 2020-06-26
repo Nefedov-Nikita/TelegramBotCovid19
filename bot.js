@@ -42,7 +42,7 @@ bot.on('text', async (ctx) => {
 ${country}
 Заболевших: ${data[0][0].cases}
 Умерших: ${data[0][0].deaths}
-Вылечились: ${data[0][0].recovered}
+Вылечившихся: ${data[0][0].recovered}
   `;
     ctx.reply(formatData);
   } catch {
